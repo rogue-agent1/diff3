@@ -1,13 +1,17 @@
-# diff3-merge
+# diff3
 
-Three-Way Diff and Merge. Zero-dependency, single-file Python CLI.
+Three-way text diff and merge
+
+Single-file, zero-dependency Python CLI tool.
 
 ## Usage
 
 ```bash
-python3 diff3.py --help
+python diff3.py --help
 ```
 
-## License
+## Test
 
-MIT
+```bash
+python -c "import diff3; diff3.test()"
+```
